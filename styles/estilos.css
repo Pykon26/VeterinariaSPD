@@ -1,0 +1,72 @@
+/* Archivo: styles.css */
+
+/* Reset básico */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Navegación */
+.navbar {
+    background-color: #81c784;
+    padding: 1em;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Contenido Principal */
+.main-content {
+    padding: 2em;
+    background-color: #ffffff;
+}
+
+.main-title {
+    color: #388e3c;
+}
+
+/* Footer */
+.footer {
+    background-color: #81c784;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-text {
+    color: #ffffff;
+}
+
+.social-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.social-item {
+    margin: 0 0.5em;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
