@@ -1,72 +1,153 @@
 /* Archivo: styles.css */
 
 /* Reset básico */
-body, h1, p, ul, li {
+body{
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
 
 /* Navegación */
 .navbar {
-    background-color: #81c784;
-    padding: 1em;
+    background-color: #089674;
+    padding-top: 0.1rem;
+    height: 100%;
 }
+.navbar li{
+    padding-top: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
 
+}
+.navbar img{
+    height: 5rem;
+    width: 5rem;
+    padding-top: -20px;
+    transition: transform 0.5s ease-in-out; /* Esta línea asegura una transición suave */
+
+}
 .nav-list {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    
 }
 
+.nav-list :hover{
+    transform: scale(1.2); 
+    color:#5EDAD4;
+}
 
 
 .nav-link {
     text-decoration: none;
-    color: #ffffff;
+    color: #0C3D55;
     font-weight: bold;
 }
 
 /* Contenido Principal */
 .main-content {
     padding: 2em;
-    background-color: #ffffff;
+    background-color: #f9f9f9;
 }
 
 .main-title {
-    color: #388e3c;
+    color: #0C3D55;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.about-us-image {
+    width: 50%;
+    border-radius: 15px;  /* Opcional: para bordes redondeados */
+    margin-right: 2em;
+    height: 10%;
+}
+
+.about-us-text {
+    flex: 1;
+}
+
+.services {
+    margin-bottom: 2em;
+}
+
+.service-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-item {
+    background-color: #3FAF72;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;  /* Opcional: para bordes redondeados */
+    color: white;
+    width: 40rem;
 }
 
 /* Footer */
 .footer {
-    background-color: #81c784;
+    background-color: #089674;
     padding: 1em;
-    position: fixed;
+    position: static;
     width: 100%;
     bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;  /* Añade espacio entre la parte superior e inferior del footer */
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-text {
-    color: #ffffff;
+    color: #0C3D55;
+    margin: 0.5em 0;
+}
+
+.map-container {
+    max-width: 250px;
+    height: 250px;
+}
+
+.lower-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .social-list {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    padding-top: 1em;
+    padding: 0;
 }
 
 .social-item {
     margin: 0 0.5em;
+    font-size: 1.5em;
 }
 
-.social-link {
+.social-list a {
     text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
+    color: inherit;
 }
