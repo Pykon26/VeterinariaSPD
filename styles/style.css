@@ -176,3 +176,32 @@ img {
     padding: 2px;
     border: solid #fff 2px;
 }
+
+/* ----------------Productos---------------- */
+
+.card{
+    margin: 75px;
+    color: #089674;  
+    font-size: 30px;
+    text-align: center;
+    border-radius: 7%;
+    background-color: #96dfdb;
+    font-size: 1.2rem;
+    font-family: 'Kalam', cursive;
+
+}
+.card-body{
+    align-items: center;
+    background-color: #ffff   ;
+
+}
+.card-body :hover{
+    transform: scale(1.15);
+    transition: 400ms;
+}
+
+.card-body img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
