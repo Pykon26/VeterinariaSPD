@@ -1,0 +1,216 @@
+/* ----------------CONFIG GENERALES---------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #b9aabb;
+    margin: 0;
+    padding: 0;
+}
+img { 
+    float:left; 
+}
+.main-content{
+    display: inline-block;
+    vertical-align: top;
+}
+/* ----------------Tabla de colores---------------- 
+#5edad4
+#089674
+#0c3d55
+#3faf72
+#96dfdb
+*/
+
+/* ----------------TITULO---------------- */
+.titulo{
+    display: flex;
+}
+
+.titulo__texto{
+    margin: 0;
+    padding-top: 10px;
+    width: 100%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to left, #f1fdfd, #0c3d55);
+    font-family: 'Kalam', cursive;
+}
+.titulo__logo{
+    background-color: #96dfdb;
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    
+}
+
+/* ----------------NAV---------------- */
+.menu{
+    background-color: black;
+    width: 100%;
+    font-family: 'Kalam', cursive;
+
+}
+
+.menu__menu{
+    height: 30px;
+}
+
+.menu__lista{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.menu__item{
+    padding-top: 4px;
+    height: 30px;
+    width: 25%;
+    font-size: 15px;
+}
+
+.menu__item:hover{
+    background-color: #434343;
+    color: #fff;
+}
+
+.menu__item--registro{
+    background-color: #0c3d55;
+}
+
+.menu__link{
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.main-somos{
+    padding: 70px;
+}
+
+.main-content h2{
+    font-size: 3.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.texto-main p{
+    font-family: 'Patrick Hand SC', cursive;
+
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+/* ----------------FOOTER---------------- */
+.footer{
+    background-color: #5edad4;
+    font-size: 30px;
+    font-weight: 600;
+    height: 70px;
+    display: flex;
+    place-content: flex-end;
+    place-items: center;
+    font-family: 'Kalam', cursive;
+
+}
+
+.footer__contenedor{
+    display: flex;
+}
+
+.footer__logos{
+    height: 50px;
+    margin: 5px;
+}
+
+.footer__logos--ubicacion{
+    display: flex;
+}
+
+.footer__text{
+    color: #edd3f1;
+    margin: 0;
+    font-size: 25px;
+}
+
+/* ----------------CONTACTOS---------------- */
+.asd{
+    height: 224px;
+}
+.titulo-contacto{
+    margin-top: 80px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    /* background-color: #5a1666;
+    color: #fff;
+    height: 60px;
+    width: 400px; */
+}
+
+/* UNO */
+.uno{
+    margin: 10 auto;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.uno__item{
+    height: 228px;
+    width: 228px;
+    margin-left: 10px;
+}
+.uno__item:hover{
+    padding: 2px;
+    border: solid #fff 2px;
+}
+
+/* ----------------Productos---------------- */
+
+.card{
+    margin: 75px;
+    color: #089674;  
+    font-size: 30px;
+    text-align: center;
+    border-radius: 7%;
+    background-color: #96dfdb;
+    font-size: 1.2rem;
+    font-family: 'Kalam', cursive;
+
+}
+.card-body{
+    align-items: center;
+    background-color: #ffff   ;
+
+}
+.card-body :hover{
+    transform: scale(1.15);
+    transition: 400ms;
+}
+
+.card-body img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+.main-servicios{
+    font-family: 'Oswald', sans-serif;
+}
+
+form{
+    font-family: 'Oswald', sans-serif; 
+}
